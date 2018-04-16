@@ -1,0 +1,23 @@
+<svg width="91" height="66" viewBox="0 0 91 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon_scattered_clouds_night</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1127 -415)">
+<g id="icon_scattered_clouds_night" filter="url(#filter0_d)">
+<g id="cloud">
+<use xlink:href="#path0_fill" transform="translate(1137.14 420.999)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="1127" y="414" width="91" height="67" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 16.5304 45.1338L 56.6324 45.1338C 64 45.1338 70.0014 38.9451 70.0014 31.5903C 70.0014 25.4016 65.9375 20.2296 60.2221 18.5442C 60.0708 13.029 55.5036 8.62637 49.8785 8.62637C 48.2436 8.62637 46.7032 9.02305 45.328 9.68899C 42.8955 3.9922 37.1857 0 30.529 0C 23.2704 0 17.1399 4.75954 15.1551 11.286C 6.57549 12.3089 0 19.4163 0 28.1599C 0 37.3206 7.12599 45.1338 16.5304 45.1338Z"/>
+</defs>
+</svg>

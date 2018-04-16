@@ -1,0 +1,32 @@
+<svg width="104" height="66" viewBox="0 0 104 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon_broken_clouds_day</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1294 -418)">
+<g id="icon_broken_clouds_day">
+<g id="cloud">
+<use xlink:href="#path0_fill" transform="translate(1340.96 418.177)" fill="#B8C7D8"/>
+<use xlink:href="#path0_fill" transform="translate(1340.96 418.177)" fill="url(#paint1_linear)" fill-opacity="0.2"/>
+</g>
+<g id="cloud" filter="url(#filter0_d)">
+<use xlink:href="#path1_fill" transform="translate(1304.18 424.71)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="1294" y="418" width="91" height="66" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 36.8199 -56.3576 0 28.1788 0)">
+<stop offset="0" stop-color="#000000" stop-opacity="0.01"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.5"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 47.4382 36.8199C 52.4034 36.2791 56.3576 32.0736 56.3576 26.9207C 56.3576 22.2533 53.1155 18.2074 48.8148 17.3297C 47.637 7.60292 39.5531 0 29.7482 0C 22.8525 0 16.8082 3.68951 13.4168 9.28327C 13.3329 9.28164 13.2496 9.25839 13.1652 9.25839C 5.89404 9.25839 0 15.5833 0 23.0392C 0 30.2332 5.48792 36.2791 12.4052 36.8199L 47.4382 36.8199Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 16.5304 45.1338L 56.6324 45.1338C 64 45.1338 70.0014 38.9451 70.0014 31.5903C 70.0014 25.4016 65.9375 20.2296 60.2221 18.5442C 60.0708 13.029 55.5036 8.62637 49.8785 8.62637C 48.2436 8.62637 46.7032 9.02305 45.328 9.68899C 42.8955 3.9922 37.1857 0 30.529 0C 23.2704 0 17.1399 4.75954 15.1551 11.286C 6.57549 12.3089 0 19.4163 0 28.1599C 0 37.3206 7.12599 45.1338 16.5304 45.1338Z"/>
+</defs>
+</svg>

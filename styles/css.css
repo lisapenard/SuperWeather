@@ -1,0 +1,314 @@
+body {
+  background: linear-gradient(180deg, #154B8C 0%, #0B2747 100%);
+  height: 1120px;
+}
+
+.container {
+  width: 1215px;
+  margin: 0 auto;
+}
+
+.container .logo img {
+  width: 151px;
+  height: 53px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.container .header {
+  margin-top: 30px;
+  float: right;
+}
+
+.container .header .menu li {
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container .header .menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .header .menu li a:hover {
+  color: rgb(150, 202, 243);
+}
+
+.container .recherche {
+  background: #FFFFFF;
+  width: 625px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 130px;
+}
+
+.search {
+  border-style: none;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 0.03em;
+  margin-top: 12px;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #808080;
+}
+
+.enterButton {
+  float: right;
+  padding: 17.5px;
+  border-radius: 10px;
+  border-style: none;
+  border: solid 1px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  color: #808080;
+}
+
+.enterButton:hover {
+  border-color: rgb(150, 202, 243);
+  border: solid 1px;
+  background: rgb(150, 202, 243);
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: 220px;
+  position: absolute;
+}
+
+.container .mainWeather {
+  width: 1215px;
+  height: 440px;
+  background: #A8CBE5;
+  border-radius: 10px;
+  margin-top: 280px;
+  position: absolute;
+}
+
+.container .mainWeather .mainIcon img {
+  position: absolute;
+  left: 12%;
+  top: 50%;
+  width: 350px;
+  transform: translateY(-50%);
+}
+
+.container .currentInfos {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  transform: translateY(-50%);
+  top: 50%;
+ left: 65%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin: 0%;
+}
+
+.container .currentInfos .mainTemp {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.container .currentInfos .mainHumidity {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.container .currentInfos .mainHumidity img {
+  height: 15px;
+  width: 15px;
+}
+
+
+.container .currentInfos .mainTempMin {
+  display:inline;
+  margin-right: 10px;
+  color: rgb(39, 119, 180);
+  font-size: 20px;
+}
+
+.container .currentInfos .mainTempMax {
+  display:inline;
+  color: rgb(238, 213, 74);
+  font-size: 20px;
+}
+
+.container .forecastInfos {
+  background: white;
+  width: 1215px;
+  height: 250px;
+  position: relative;
+  clear: both;
+  top: 634px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .forecastInfos .tempMax {
+  display:inline;
+  color: rgb(238, 213, 74);
+}
+
+.container .forecastInfos .tempMin {
+  display:inline;
+  color: rgb(39, 119, 180);
+}
+
+.container .forecastInfos .dayOne {
+  display:inline-block;
+  text-align:center;
+  width: 238px;
+}
+
+.container .forecastInfos .dayTwo {
+  display:inline-block;
+  text-align:center;
+  width: 238px;
+  height: 250px;
+  background: #E5F4FF;
+}
+
+.container .forecastInfos .dayThree {
+  display:inline-block;
+  text-align:center;
+  width: 238px;
+  
+}
+
+.container .forecastInfos .dayFour {
+  display:inline-block;
+  text-align:center;
+  width: 238px;
+  height: 250px;
+  background: #E5F4FF;
+}
+
+.container .forecastInfos .dayFive {
+  display:inline-block;
+  text-align:center;
+  width: 238px;
+}
+
+.container .forecastInfos .date {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px; 
+}
+
+.container .forecastInfos .temp {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.container .forecastInfos .tempMin {
+  margin-right: 5px;
+}
+
+.container .forecastInfos .forecastIcon img {
+  margin-top: 15px;
+  width: 100px;
+}
+
+
+
+/* *** RESPONSIVE *** */
+
+@media (min-width: 380px) and (max-width: 960px)
+{
+  body{
+    height: 255%;
+  }
+
+  .container {
+    width: 100%;
+  }
+  
+  /* MENU */
+  .container .header .menu li {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+  /* SEARCH BAR */
+  .container .recherche {
+    width: 80%;
+  }
+  
+  h1{
+    font-size: 18px;;
+  }
+
+  .container .mainWeather {
+    width: 95%;
+    height: 300px; 
+  }
+
+  .container .mainWeather .mainIcon img {
+    width: 200px;
+    left: 5%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .container .currentInfos .mainTemp {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .container .forecastInfos {
+    width: 95%;
+    top: 520px;
+    background:none;
+  }
+
+  .container .forecastInfos .dayOne{
+    width: 103%;
+    border-radius: 10px;
+    background: white;
+    display:block
+  }
+
+  .container .forecastInfos .dayTwo{
+    width: 103%;
+    border-radius: 10px;
+    display: block;
+    
+  }
+
+  .container .forecastInfos .dayThree{
+    width: 103%;
+    border-radius: 10px;
+    display: block;
+    background: white;
+  }
+
+  .container .forecastInfos .dayFour{
+    width: 103%;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .container .forecastInfos .dayFive{
+    width: 103%;
+    border-radius: 10px;
+    display: block;
+    background: white;
+  }
+
+}
+
+
+
